@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    width: 100%;
+    height: 121px;
+    background-color:#EAAD00;
+}
+    a{
+        text-decoration: none;
+        
+    }
+    ul li {
+        list-style-type: none;
+    }
+
+
+ .head .menu{
+    width: 1200px;
+    height: 100%;
+    padding: 0 25px;
+    background-color:#EAAD00 ;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    border: none;
+}
+.logo{
+    cursor: pointer;
+}
+.header-menu .list{
+    display: flex;
+    align-items: center;
+}
+
+.header-menu .list li a{
+    padding: 10px 20px ;
+    display: flex;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 25px;
+}
+.head .menu li:list-child{
+    margin: 30px;
+
+}
+.search-field{
+    height: 50px;
+    width: 270px;
+    background-color: #FFCB00;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    padding: 0 14px;
+}
+.search-field ::placeholder{
+    font-size: 24px;
+    color: #fff;
+
+}
+.search-icon{
+    height: 50px;
+    width: 70px;
+    left:0;
+    display: flex;
+    background-color:#00BFCB;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; 
+}
+.list{
+    position: relative;
+
+
+}
+
+.list.search-icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.search-icon{
+    color: #fff;
+    font-size: 24px;
+}
+
+
+
+      /*----------- banner- section--------*/
+       .banner-section{
+        background-color: #fcc302;
+       }
+       
+       .banner-section .container{
+        width: 1200px;
+        padding: 0 25px;
+       /* background-color: red;*/
+        height: 100%;
+        margin: 0 auto; 
+        display: flex;
+        justify-content: space-between;
+         padding-top: 90px;
+         padding-bottom: 110px;
+      }
+
+      .banner-text-content{
+        max-width: 60%;
+        
+         }
+
+    .banner-image{
+        max-width: 40%;
+    }
+
+
+       .banner_text-content h1{
+         font-size:67px;
+        font-weight: 600;
+        color: #fff;
+        line-height: 70px;
+        margin-bottom: 40px;
+       }
+       .banner_text-content p{
+        font-size: 29px;
+        color: #fff;
+        font-weight: 400;
+       }
+       .banner-button{
+        margin-top: 40px;
+       }
+       .banner-button a{
+        color: #fff;
+        font-size: 24px;
+        display: inline-block;
+        padding: 24px 34px;
+        border-radius: 8px;
+       }
+
+       .banner-button a:first-child{
+        background-color: #00BFCB;
+        padding: 24px 34px;
+       }
+       .banner-button a:last-child{
+        border: 3px solid #FFF;
+        margin-left: 30px;
+
+       }
+
+
+       .banner-image{
+        max-width: 40%;
+       }
+       .banner-image img{
+        width: 100%;
+       }
+
+
+
+               /*------------animal-lover-section-------------------*/
+
+       .animal-lover-section{
+        width: 1200px;
+        margin: 0 auto;
+       }
+
+       .animal-lover-section .conteiner{
+        padding: 140px 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+ }
+     .animal-lover_text-animal-content{
+        max-width: 50%;
+    
+        
+     }
+     .animal-lover_text-content{
+        font-family:'Poppins', sans-serif; 
+     }
+ .animal-lover_text-content h2{
+    font-size: 50px;
+    font-weight: 600;
+    color: #2D2E42;
+    line-height: 55px;
+    margin-bottom: 40px; 
+
+
+ }
+ .animal-lover_text-content p{
+    font-size: 29px;
+    font-weight: 400;
+    color: #2D2E42;
+    margin-bottom: 40px;
+ }
+ .animal-lover-image{
+   max-width: 50%;
+ }
+ 
+ .animal-lover-img{
+    width: 100%;
+ }
+ .animal-lover_text-content a{
+
+    display: inline-block;
+    font-size:24px ;
+    color: #FFF;
+    background-color: #EAAD00;
+    border-radius: 8px;
+    padding: 24px 34px;
+ }
+ 
+
+
+            /*----------dental-care----------*/
+
+ .dental-care{
+   background-color:#FFC400 ;
+   color: #FFF; 
+   width: 100%;
+   height: 1015px;
+ 
+
+ }
+
+
+
+ .conteiner .dental-care-headline_text{
+    width: 100%;
+    height: 375px;
+    position: relative;
+    text-align: center; 
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    padding: auto;
+    background-color:#fcc302 ;
+    
+
+ }
+.dental-care-headline_text h2{
+    font-size: 75px;
+    padding-top: 100px;
+}
+.dental-care-headline_text p{
+    font-size: 33px;
+}
+    .dental-care-tittle{
+        display: flex;
+        font-family:'Poppins', sans-serif;
+        justify-content: space-around;
+        text-align: center;
+        padding-top: 35px;
+    }
+    .dental-care_img{
+
+        display: flex;
+        justify-content: space-around;
+    }
+    .dental-care-tittle h3{
+        font-size: 37px;
+    }
+    .dental-care-tittle p{
+        font-size: 25px;
+
+    }
+
+
+
+
+
+
+    .animal-love{
+        width:100%;
+        height: 800px;
+        margin:0 auto;
+        /*background-color: #2D2E42;*/
+        position:relative;
+        
+        
+    }
+    .image-left{
+        width: 500px;
+        height: 480px;
+        top: 140px;
+        left: 140px;
+        justify-content: space-around;
+        position: absolute;
+
+
+    }
+    .animal-love_text-right{
+        height: 480px;
+        width: 600px;
+        margin-top: 230px;
+        margin-left: 776px;
+        display:inline-block;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+        color: #3C3D4F;
+        text-align: right;
+        
+    
+
+
+
+    
+    }
+    .animal-love_text-right h2{
+        font-size: 49px;
+        color: #2D2E42;
+        
+    }
+    .animal-love_text-right p{
+        font-size: 20px;
+        margin-top: 49px;
+    
+        
+        
+    }
+    .banner-btn{
+     display:inline-block;
+    font-size:25px ;
+    color: #FFF;
+    background-color: #EAAD00;
+    border-radius: 8px;
+    padding: 7px 22px;
+    margin-top: 55px;
+    }
+    .banner-btn a{
+        color: #FFF;
+        display: flex;
+    }
+    
+ 
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+   
+
+
